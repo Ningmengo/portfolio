@@ -1,0 +1,11 @@
+.PersonInfo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1600px;
+  border: 2px solid green;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.MainContent {
+}
