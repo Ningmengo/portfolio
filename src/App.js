@@ -7,11 +7,13 @@ import Language from "./components/language/Language";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
+import NavBar from "./components/navbar/NavBar";
 import "../src/App.css";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Header />
       <PersonInfo />
       <Skills />

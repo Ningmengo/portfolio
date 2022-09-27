@@ -1,8 +1,17 @@
 .Header {
-  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 400px;
+  min-width: 100%;
   border: 2px solid green;
   font-size: 30px;
   color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  text-align: center;
+  background-image: url(../../resource/night.png);
+}
+
+.title {
+  display: flex;
+  position: relative;
+  left: 300px;
 }
