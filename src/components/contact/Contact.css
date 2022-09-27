@@ -1,8 +1,18 @@
 .Contact {
-  width: 1600px;
-  border: 2px solid green;
+  min-width: 100%;
+
   font-size: 30px;
-  color: white;
+  color: black;
   padding-top: 30px;
   padding-bottom: 30px;
+  opacity: 60%;
+  background-color: white;
+}
+.ins:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
 }

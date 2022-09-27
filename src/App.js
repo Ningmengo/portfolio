@@ -8,13 +8,15 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import NavBar from "./components/navbar/NavBar";
+
 import "../src/App.css";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Header />
+
+      <NavBar />
       <PersonInfo />
       <Skills />
       <Experience />
@@ -22,7 +24,6 @@ function App() {
       <Language />
       <Projects />
       <Contact />
-
       {/* <Router>
         <Routes>
           <Route exact path="/"></Route>
