@@ -8,15 +8,17 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import NavBar from "./components/navbar/NavBar";
+import React, { useState } from "react";
 
 import "../src/App.css";
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
   return (
-    <div className="App">
+    <div className={isActive ? "App-lightTheme" : "App"}>
       <Header />
 
-      <NavBar />
+      <NavBar isActive={isActive} setIsActive={setIsActive} />
       <PersonInfo />
       <Skills />
       <Experience />
@@ -24,7 +26,7 @@ function App() {
       <Language />
       <Projects />
       <Contact />
-      {/* <Router>
+      <Router>
         <Routes>
           <Route exact path="/"></Route>
           <Route path="/PersonInfo" element={<PersonInfo />}></Route>
@@ -34,7 +36,7 @@ function App() {
           <Route path="/Language" element={<Language />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   );
 }

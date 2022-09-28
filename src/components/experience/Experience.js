@@ -4,15 +4,15 @@ import "../experience/Experience.css";
 const Experience = () => {
   return (
     <div className="Experience">
-      experience
+      Experience
       <div className="MainContent">
         <h1>Sushi Maker, Sakura Garden</h1>
-        <h4>July 2019 to January 2020, North York, Ontario</h4>
+        <br /> <h4>July 2019 to January 2020, North York, Ontario</h4>
         <ul>
           <li>Started learning to make sushi and rolls.</li>
           <li>Self-learning front-end programming languages.</li>
+          <br />
         </ul>
-
         <h4>January 2020 to July 2022, North York, Ontario</h4>
         <ul>
           <li>

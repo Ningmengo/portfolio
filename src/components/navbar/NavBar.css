@@ -8,4 +8,21 @@
   position: sticky;
   top: 0px;
   text-align: center;
+  opacity: 60%;
+}
+.a {
+  text-decoration: none;
+  color: wheat;
+}
+.btn-changeTheme {
+  color: aquamarine;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  transform: translateX(30px);
+}
+.btn-changeTheme:hover {
+  color: lightblue;
 }

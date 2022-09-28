@@ -8,6 +8,20 @@
   align-items: center;
   justify-content: center;
   font-family: cursive;
-
+  color: white;
   background: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.App-lightTheme {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  color: black;
+  background: linear-gradient(to right, #aff1da 0%, #f9ea8f 100%);
 }
